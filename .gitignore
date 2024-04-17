@@ -1,0 +1,64 @@
+# Qt 프로젝트 파일들에서 무시해야 할 항목
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Qt 임시 파일
+*.qmlc
+*.jsc
+*.temp
+*.autosave
+
+# 빌드 결과
+build-*
+debug/
+release/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+*.dylib
+*.exe
+*.app
+moc_*
+qrc_*
+ui_*
+
+# QtCreator CMake 프로젝트 파일
+CMakeLists.txt.user*
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+# 안드로이드 빌드 폴더
+/android-build/
+
+# 로컬 속성 파일
+local.properties
+
+# Gradle 관련
+.gradle/
+/build/
+
+# 로그 파일
+*.log
+
+# IntelliJ 관련
+.idea/
+*.iml
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Keystore files
+*.jks
+
